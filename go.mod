@@ -1,4 +1,4 @@
-module raftnodes
+module github.com/andres1gb/raftnodes
 
 go 1.18
 
