@@ -6,7 +6,7 @@ import (
 	"log"
 	"net"
 	"net/http"
-	"raft_nodes/utils"
+	"raftnodes/utils"
 	"time"
 
 	"github.com/gorilla/mux"
