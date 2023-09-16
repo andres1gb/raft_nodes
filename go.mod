@@ -1,4 +1,4 @@
-module raft_nodes
+module raftnodes
 
 go 1.18
 
