@@ -122,5 +122,6 @@ func (rn *RaftNode[DataType]) Start(config RaftNodeConfig) error {
 		log.Fatal(err)
 	}
 	rn.running = true
+
 	return nil
 }
