@@ -6,9 +6,9 @@ import (
 	"log"
 	"net"
 	"net/http"
-	"github.com/andres1gb/raftnodes/utils"
 	"time"
 
+	Utils "github.com/andres1gb/raftnodes/utils"
 	"github.com/gorilla/mux"
 	"github.com/shaj13/raft"
 	"github.com/shaj13/raft/transport"
@@ -23,9 +23,9 @@ type RaftNode[DataType any] struct {
 }
 
 type RaftNodeConfig struct {
-	NodeAddr utils.Address
-	ApiAddr  utils.Address
-	Join     *utils.Address
+	NodeAddr Utils.Address
+	ApiAddr  Utils.Address
+	Join     *Utils.Address
 }
 
 func New[DataType any]() (*RaftNode[DataType], error) {
